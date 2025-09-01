@@ -6,17 +6,19 @@ export default function ProductGrid({ status }) {
   const filtered = products.filter((p) => p.status === status);
 
   return (
-    <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 p-6">
+    <div className="grid grid-cols-2 md:grid-cols-3 gap-4 p-6">
       {filtered.map((p) => (
-        <motion.div key={p.id} whileHover={{ scale: 1.02 }}>
+        <motion.div key={p.id} whileHover={{ scale: 1.01 }}>
           <Link to={`/product/${p.id}`}>
-            <div className="overflow-hidden rounded-2xl shadow-sm">
+            <div className="overflow-hidden">
               <img
                 src={p.image}
                 alt={p.name}
-                className="w-full h-80 object-cover"
+                className="w-full h-[450px] object-cover object-center hover:opacity-90 transition"
               />
-              <div className="p-4 text-center font-light">{p.name}</div>
+              <div className="text-center py-4 text-base font-light tracking-wide text-gray-800">
+                {p.name}
+              </div>
             </div>
           </Link>
         </motion.div>
