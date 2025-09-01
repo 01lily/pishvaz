@@ -3,21 +3,35 @@
     "id": "ring1",
     "name": "Gold Ring",
     "status": "available",
-    "image": "/images/ring1.jpg",
+    "image": "/images/1.jpg",
     "description": "A beautiful handcrafted gold ring."
   },
   {
     "id": "necklace1",
     "name": "Silver Necklace",
     "status": "comingsoon",
-    "image": "/images/necklace1.jpg",
+    "image": "/images/2.jpg",
     "description": "Elegant silver necklace with minimalist design."
   },
   {
     "id": "bracelet1",
-    "name": "Diamond Bracelet",
+    "name": "Gold Bracelet",
     "status": "sold",
-    "image": "/images/bracelet1.jpg",
+    "image": "/images/3.jpg",
+    "description": "Delicate bracelet with diamonds."
+  },
+  {
+    "id": "earring1",
+    "name": "Diamond Bracelet",
+    "status": "comingsoon",
+    "image": "/images/4.jpg",
+    "description": "Delicate bracelet with diamonds."
+  },
+  {
+    "id": "watch1",
+    "name": "Silver Bracelet",
+    "status": "available",
+    "image": "/images/5.jpg",
     "description": "Delicate bracelet with diamonds."
   }
 ]
