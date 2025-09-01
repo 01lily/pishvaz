@@ -5,9 +5,15 @@ export default function Navbar() {
     "px-4 py-2 text-sm font-light tracking-widest uppercase hover:text-gray-500 transition";
 
   return (
-    <nav className="flex justify-center gap-10 py-8 border-b border-gray-200">
+    <nav className="flex justify-center gap-8 py-8 border-b border-gray-200">
       <NavLink to="/" className={linkClass}>
         Home
+      </NavLink>
+      <NavLink to="/about" className={linkClass}>
+        About Us
+      </NavLink>
+      <NavLink to="/contact" className={linkClass}>
+        Contact Us
       </NavLink>
       <NavLink to="/comingsoon" className={linkClass}>
         Coming Soon
@@ -21,4 +27,5 @@ export default function Navbar() {
     </nav>
   );
 }
+
 
