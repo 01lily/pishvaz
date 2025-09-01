@@ -1,1 +1,23 @@
-
+[
+  {
+    "id": "ring1",
+    "name": "Gold Ring",
+    "status": "available",
+    "image": "/images/ring1.jpg",
+    "description": "A beautiful handcrafted gold ring."
+  },
+  {
+    "id": "necklace1",
+    "name": "Silver Necklace",
+    "status": "comingsoon",
+    "image": "/images/necklace1.jpg",
+    "description": "Elegant silver necklace with minimalist design."
+  },
+  {
+    "id": "bracelet1",
+    "name": "Diamond Bracelet",
+    "status": "sold",
+    "image": "/images/bracelet1.jpg",
+    "description": "Delicate bracelet with diamonds."
+  }
+]
